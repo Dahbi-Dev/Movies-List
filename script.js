@@ -1,5 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const appSettings = {
     databaseURL: "https://cart-item-6fba7-default-rtdb.firebaseio.com/"
