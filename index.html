@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Cart List</title>
+    <title>Movie List</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,17 +12,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets//favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
-    
+
 
 </head>
 
 <body>
-    <div class="container">
-        <img src="assets/cart.png">
-        <h1 class="header">Add to cart</h1>
-        <input type="text" id="input-field" placeholder="Bread">
-        <button id="add-button">Add to cart</button>
-        <ul id="shopping-list">
+    <div id="container">
+        <img id="img" src="assets/movie.png">
+
+        <div id="alerts">
+        </div>
+
+        <input type="text" id="input-field" placeholder="Terminator" minlength="2">
+        <button id="add-button">Add Movie</button>
+        <ul id="movies-list">
         </ul>
     </div>
     <script src="script.js" type="module"></script>
